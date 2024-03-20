@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Imagenes/Logo.svg" alt="logo">
+    </header>
+    <main>
+        <section class="seccion1">
+            <div class="contenedorCajaTexto">
+                <textarea placeholder="Ingrese el texto aqui" class="cajaTexto"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="Imagenes/alerta.svg" alt="alerta">
+                <p>Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="contenedorBotones">
+                <input type="button" class="btn_encriptar" value="Encriptar">
+                <input type="button" class="btn_desencriptar" value="Desencriptar">
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="contenedorAvatar">
+                <img src="Imagenes/avatar.svg" alt="avatar">
+            </div>
+            <div class="contenedorParrafo">
+                <h3>Ningun mensaje fue <br>Encontrado</h3>
+                <p>Ingrea el texto que deseas encriptar o <br> desencriptar.</p>
+            </div>
+            <div class="contenedorCopiar">
+                <input type="button" class="btn_copiar" value="Copiar">
+            </div>
+            <div class="contenedorResultado">
+                <p class="textoResultado"></p>
+
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
